@@ -1,0 +1,6 @@
+#SISTEMA DE GUILDA
+
+Sistema de Guilda é um software escrito em java que serve para o registro de personages e
+seus atributos em determinadas classe, baseado em sistemas de RPG, cada personagem tem
+um poder de combate próprio baseado em seus atributos (força, inteligencia, destreza) e em sua classe,
+além de um inventario para equipar armas e armaduras e guardar suas poções.
