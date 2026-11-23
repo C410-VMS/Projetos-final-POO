@@ -32,10 +32,10 @@ public class Inventario {
 
         if (quantidadeItem >= 10) {
             throw new CapacidadeInventarioExcedidaException();
+        } else { 
+            mochila.add(item);
+            System.out.println(item.getNome() + " adicionado ao inventário");
         }
-
-        mochila.add(item);
-        System.out.println(item.getNome() + " adicionado ao inventário");
     }
 
     public void removerItem(Item item) throws AtributoNuloException, ItemNaoEncontradoException {
@@ -122,4 +122,5 @@ public class Inventario {
         }
         System.out.println("---------x---------\n");
     }
+
 }
