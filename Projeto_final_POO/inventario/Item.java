@@ -26,8 +26,16 @@ public abstract class Item {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public Raridade getRaridade() {
         return raridade;
+    }
+
+    public void setraridade(Raridade raridade){
+        this.raridade = raridade;
     }
 
     public abstract String exibirDetalhes();
